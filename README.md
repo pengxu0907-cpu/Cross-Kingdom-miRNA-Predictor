@@ -22,8 +22,14 @@ We provide a lightweight toy dataset (`test_target_regions.fasta`) for quick pip
    BiocManager::install("Biostrings")
    ```
 3. Run the script. The entire pipeline executes in seconds and outputs a .csv matrix containing the computed $\lambda$ expectations, Poisson P-values, and FDR correlations.
+
 ## Citation & Acknowledgements
 The conceptual foundation of identifying plant-derived exosomal miRNA targets in gut bacteria was inspired by Teng et al., 2018 (Cell Host & Microbe).
 This repository implements a highly refactored and statistically robust algorithm, featuring mathematical boundary continuity (underflow protection) and global multiple testing universe completeness.
+
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided that proper academic citation is given.
+
+## 📬 Contact & Feedback
+If you encounter any bugs, have questions about the methodology, or want to discuss potential collaborations, please feel free to open an **Issue** here on GitHub or contact me directly at: 
+**pengxu0907@gmail.com** 
